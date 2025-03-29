@@ -13,6 +13,33 @@ from ..utils.progress_bar import progress_bar
 from ..utils.timeout import time_out
 
 
+import time
+from utils.delays import get_delays  # Importa a função criada
+
+# Registra o tempo de início
+start_time = time.time()
+
+# Configurações iniciais (exemplo, ajuste conforme o script original)
+# Substitua qualquer leitura direta de config.ini por valores dinâmicos
+def main():
+    # Exemplo de loop principal (simulado)
+    while True:
+        # Obtém os delays atuais
+        user_delay_seconds, bot_delay_seconds, skip_delay_seconds = get_delays(start_time)
+        
+        print(f"Delays atuais: user={user_delay_seconds}, bot={bot_delay_seconds}, skip={skip_delay_seconds}")
+        
+        # Use os delays nas operações do script
+        time.sleep(user_delay_seconds)  # Exemplo de uso do delay
+        
+        # Aqui iria o restante da lógica do script (clonagem, etc.)
+        # Substitua qualquer uso fixo de delays por essas variáveis dinâmicas
+
+if __name__ == "__main__":
+    main()
+
+
+
 async def get_next_to_upload(
     cloneplan_path: Path, loop_seconds: int = 5
 ) -> int:
