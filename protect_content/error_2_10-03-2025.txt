@@ -1,0 +1,155 @@
+C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia>python clonechat_protect_run.py
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://docs.pyrogram.org/topics/speedups
+
+....:: Clonechat - v111 ::....
+github.com/apenasrr/clonechat/
+-----------Protect------------
+C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\user.session
+C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\user_up.session
+Enter the ORIGIN chat_id, chat_link or chat_username: -1001791125813
+ORIGIN: 1001791125813-Programa UX Unicórnio 2.0
+
+Enter the DESTINATION chat_id or chat_link or chat_username: -1001502571340
+DESTINATION: 1001502571340-Meus Cursos UX Unicornio
+
+Continue cloning or start a new one?
+1 - Continue
+2 - Start a new
+Answer: 2
+The chat history was saved. 630 posts.
+
+Chat History: 1001791125813-Programa UX Unicórnio 2.0
+duration: 416h 23m 35s
+total size: 151.720 GB
+msgs count by type: {
+  "service": 2,
+  "text": 2,
+  "video": 625,
+  "document": 1
+}
+
+dw: 2-Programa_UX_Unicornio_2_0-001.rar
+[●●●●●●●●●●] | DW: 100.0% | 260.2 MiB of 260.2 MiB | Speed: 72.94 KiB/s | ETA: 1h, 53s |  |
+dw: 3-split_2. Video-1_fd551-001.mp4
+up: 2-Programa_UX_Unicornio_2_0-001.rar
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://docs.pyrogram.org/topics/speedups
+[●●●●●●●●○○] | Progress: 82.25% | 214.0 MiB of 260.2 MiB | Speed: 61.27 KiB/s | ETA: 1h, 12m, 28s |
+Took too long. Restarting.
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://docs.pyrogram.org/topics/speedups
+[●●●●●●●●○○] | Progress: 84.55% | 220.0 MiB of 260.2 MiB | Speed: 62.74 KiB/s | ETA: 1h, 10m, 47s |
+Took too long. Restarting.
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://docs.pyrogram.org/topics/speedups
+Task exception was never retrieved138.5 MiB of 260.2 MiB | Speed: 70.62 KiB/s | ETA: 1h, 2m, 52s |
+future: <Task finished name='Task-3511' coro=<Client.handle_updates() done, defined at C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py:535> exception=ValueError('Peer id invalid: -1002451087857')>
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002451087857'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002451087857
+Task exception was never retrieved171.5 MiB of 260.2 MiB | Speed: 73.45 KiB/s | ETA: 1h, 28s |  |
+future: <Task finished name='Task-4374' coro=<Client.handle_updates() done, defined at C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py:535> exception=ValueError('Peer id invalid: -1002451087857')>
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002451087857'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002451087857
+Task exception was never retrieved78.5 MiB of 260.2 MiB | Speed: 74.05 KiB/s | ETA: 59m, 58s |
+future: <Task finished name='Task-4566' coro=<Client.handle_updates() done, defined at C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py:535> exception=ValueError('Peer id invalid: -1002451087857')>
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002451087857'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002451087857
+[●●●●●●●●●●] | Progress: 100.0% | 260.2 MiB of 260.2 MiB | Speed: 78.86 KiB/s | ETA: 56m, 18s |
+Telegram says: [400 FILE_REFERENCE_EXPIRED] - The file id contains an expired file reference, you must obtain a valid one by fetching the message from the origin context (caused by "upload.GetFile")
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 351, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py", line 891, in get_file
+    r = await session.invoke(
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.FileReferenceExpired: Telegram says: [400 FILE_REFERENCE_EXPIRED] - The file id contains an expired file reference, you must obtain a valid one by fetching the message from the origin context (caused by "upload.GetFile")
+
+dw: 4-split_2. Video-1_fd551-002.mp4
+up: 3-split_2. Video-1_fd551-001.mp4
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://docs.pyrogram.org/topics/speedups
+Process Process-4:
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\protect_content\utils\timeout.py", line 9, in func_subprocess
+    result = asyncio.run(func_(**dict_params))
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\protect_content\pipe\upload.py", line 80, in send_video
+    await client.send_video(
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\messages\send_video.py", line 187, in send_video
+    file = await self.save_file(video, progress=progress, progress_args=progress_args)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 129, in save_file
+    raise ValueError("File size equals to 0 B")
+ValueError: File size equals to 0 B
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x00000194C7F355E0>
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed

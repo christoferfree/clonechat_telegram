@@ -1,0 +1,80 @@
+C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia>python clonechat_protect_run.py
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://docs.pyrogram.org/topics/speedups
+
+....:: Clonechat - v111 ::....
+github.com/apenasrr/clonechat/
+-----------Protect------------
+C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\user.session
+C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\user_up.session
+Enter the ORIGIN chat_id, chat_link or chat_username: -1001791125813
+ORIGIN: 1001791125813-Programa UX Unicórnio 2.0
+
+Enter the DESTINATION chat_id or chat_link or chat_username: -1001791125813
+DESTINATION: 1001791125813-Programa UX Unicórnio 2.0
+
+The chat history was saved. 630 posts.
+
+Chat History: 1001791125813-Programa UX Unicórnio 2.0
+duration: 416h 23m 35s
+total size: 151.720 GB
+msgs count by type: {
+  "service": 2,
+  "text": 2,
+  "video": 625,
+  "document": 1
+}
+
+dw: 2-Programa_UX_Unicornio_2_0-001.rar
+Telegram says: [400 FILE_REFERENCE_EXPIRED] - The file id contains an expired file reference, you must obtain a valid one by fetching the message from the origin context (caused by "upload.GetFile")
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\client.py", line 927, in get_file
+    r = await session.invoke(
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.FileReferenceExpired: Telegram says: [400 FILE_REFERENCE_EXPIRED] - The file id contains an expired file reference, you must obtain a valid one by fetching the message from the origin context (caused by "upload.GetFile")
+
+dw: 3-split_2. Video-1_fd551-001.mp4
+up: 2-Programa_UX_Unicornio_2_0-001.rar
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://docs.pyrogram.org/topics/speedups
+socket.send() raised exception.| 8.5 MiB of 150.0 MiB | Speed: 47.63 KiB/s | ETA: 53m, 45s |
+socket.send() raised exception.
+Process Process-1:gress: 100.0% | 150.0 MiB of 150.0 MiB | Speed: 66.89 KiB/s | ETA: 38m, 16s | |
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\protect_content\utils\timeout.py", line 9, in func_subprocess
+    result = asyncio.run(func_(**dict_params))
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "C:\00 _ Backups 2022 _ 201 GB\Clonar Canais Telegram\Telegram Cloneschat _ script de clonagem de canais do telegram\clonechat_ PARA ANALIZAR _ - Copia\protect_content\pipe\upload.py", line 104, in send_document
+    await client.send_document(
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\messages\send_document.py", line 193, in send_document
+    r = await self.invoke(
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ChatAdminRequired: Telegram says: [400 CHAT_ADMIN_REQUIRED] - The method requires chat admin privileges (caused by "messages.SendMedia")
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001BCE7D955E0>
+Traceback (most recent call last):
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\Francisco\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
